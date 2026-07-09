@@ -87,7 +87,7 @@ export const services: Service[] = [
 export type Stat = { label: string; value: number; suffix: string };
 
 export const stats: Stat[] = [
-  { label: 'Happy Clients', value: 1000, suffix: '+' },
+  { label: 'Happy Clients', value: 150, suffix: '+' },
   { label: 'Years of Experience', value: 5, suffix: '+' },
   { label: 'Client Satisfaction', value: 98, suffix: '%' },
   { label: 'Professional Support', value: 24, suffix: '×7' },
@@ -334,7 +334,7 @@ export const aboutCards = [
   {
     title: 'Why Choose Us',
     description:
-      'With 1000+ satisfied clients and 5+ years of experience, we combine deep expertise with personalised service to deliver results that exceed expectations.',
+      'With 150+ satisfied clients and 5+ years of experience, we combine deep expertise with personalised service to deliver results that exceed expectations.',
     icon: 'star',
   },
 ];
